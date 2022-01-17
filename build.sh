@@ -15,8 +15,6 @@ mkdir -p "${DIR}/target/tar/bin/"
 mkdir -p "${DIR}/target/tar/conf/"
 
 cp "${DIR}/main.py" "${DIR}/target/tar/bin/"
-cp "${DIR}/bin/"* "${DIR}/target/tar/bin/"
-cp "${DIR}/conf.yml" "${DIR}/target/tar/conf/"
 cp "${DIR}/conf.yml" "${DIR}/target/tar/conf/"
 
 cd "${DIR}/target/tar" && tar -zcvf "${DIR}/target/onteon-demo-app-always-in-fridge-native.tar.gz" *
