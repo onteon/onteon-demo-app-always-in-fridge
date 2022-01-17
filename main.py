@@ -12,7 +12,7 @@ def is_alive():
 
 
 @api.route('/api/v1/items/', methods=['GET'])
-def get_companies():
+def get_items():
     response = [
         {"name": "Milk", "category": "Milk", "amount": 300, "unit": "ml"},
         {"name": "Ham", "category": "Meat", "amount": 200, "unit": "g"},
